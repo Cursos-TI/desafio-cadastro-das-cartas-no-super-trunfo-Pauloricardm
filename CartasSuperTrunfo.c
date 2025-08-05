@@ -15,7 +15,7 @@ int main (){
     printf("Digite o Estado: "); 
     scanf("%s", &Estado);
     
-    printf("Digite o codigo: "); 
+    printf("Digite o codigo da Carta: "); 
     scanf("%s", &Codigo);
     
     printf("Nome da Cidade: "); 
@@ -39,7 +39,7 @@ int main (){
     printf("Digite o Estado: ");
     scanf("%s", &Estado2);
     
-    printf("Digite o codigo: ");
+    printf("Digite o codigo da Carta: ");
     scanf("%s", &Codigo2);
     
     printf("Nome da Cidade: ");
@@ -66,7 +66,7 @@ int main (){
     printf("Codigo: %s \n", Codigo);
     printf("Nome da Cidade: %s \n", Cidade);
     printf("Populacao: %d \n", Populacao);
-    printf("Area: %.2f km² \n", Area);
+    printf("Area: %.3f km² \n", Area);
     printf("PIB: %.2f Bilhoes de reais \n", PIB);
     printf("Numeros de pontos Turisticos: %d \n", Turistico);
 
