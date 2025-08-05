@@ -5,25 +5,29 @@ int main (){
     float Area, Area2, PIB, PIB2;
     char Estado[20], Estado2[20], Codigo[20], Codigo2[20], Cidade[20], Cidade2[20];
 
-    
+    /* Carta Super Trunfo, coletar os dados de uma determinada cidade, como Estado, Codigo, cidade, Numero populacional, Area da cidade, 
+    Pontos turistico dessa cidade e o PIB, serão duas cartas no mesmo formato sem comparativos entre elas, somente coletar dados e apresentar ao usuario.
+    Os dados serão apresentados em sequencia, assim como a apresentação das cartas.*/
+
+
     printf(" Carta 1 \n");
     
-    printf("Digite o Estado: ");
+    printf("Digite o Estado: "); 
     scanf("%s", &Estado);
     
-    printf("Digite o codigo: ");
+    printf("Digite o codigo: "); 
     scanf("%s", &Codigo);
     
-    printf("Nome da Cidade: ");
+    printf("Nome da Cidade: "); 
     scanf("%s", &Cidade);
     
-    printf("Populacao: ");
+    printf("Populacao: "); 
     scanf(" %d", &Populacao);
 
-    printf("Area: ");
+    printf("Area: "); 
     scanf(" %f", &Area);
 
-    printf("Pontos Turisticos: ");
+    printf("Pontos Turisticos: "); 
     scanf(" %d", &Turistico);
 
     printf("PIB: ");
